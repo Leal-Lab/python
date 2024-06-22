@@ -10,4 +10,4 @@ if(se)
 idade = 16
 
 if idade < 18:
-    print('MENOR DE IDADE')
+    print('MENOR DE IDADE') 
