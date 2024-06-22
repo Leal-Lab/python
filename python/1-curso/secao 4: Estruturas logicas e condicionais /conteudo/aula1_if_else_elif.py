@@ -9,16 +9,16 @@ elif (se não se)
 
 """
 
-idade = 16
+IDADE = 16
 
 
-if idade < 18:
-    print('MENOR DE IDADE') 
-    print(idade)
+if IDADE < 18:
+    print('MENOR DE IDADE')
+    print(IDADE)
 
-elif idade == 18:
+elif IDADE == 18:
     print('PASSOU POR POUCO')
 
 else:
     print('MAIOR DE IDADE')
-    print(idade)
+    print(IDADE)
