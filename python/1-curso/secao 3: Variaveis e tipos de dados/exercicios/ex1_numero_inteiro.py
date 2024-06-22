@@ -2,5 +2,5 @@
 faça um programa que leia um número inteiro e o imprima.
 """
 
-numero_inteiro = 4;
-print(numero_inteiro)
+NUMERO_INTEIRO = 4
+print (NUMERO_INTEIRO)

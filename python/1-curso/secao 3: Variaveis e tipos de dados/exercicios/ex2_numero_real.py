@@ -2,5 +2,5 @@
 faça um programa que leia um número real e o imprima.
 """
 
-numero_real = -1.3;
-print(numero_real)
+NUMERO_REAL = -1.3
+print (NUMERO_REAL)
