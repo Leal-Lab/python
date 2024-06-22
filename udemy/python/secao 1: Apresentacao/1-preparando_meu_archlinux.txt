@@ -1,0 +1,11 @@
+ 
+    O curso pede pra instalar a IDE pycharm, mas sinceramente eu prefiro o VScodium. VScodium é a versão livre do produto VS code, da Microsoft. Pra instalar diretamente do terminal, habilite o repositório aur (chaotic-aur é excelente!)
+
+            VScodium
+                sudo pacman -S vscodium
+
+            bibliotecas python
+                sudo pacman -S python-pip python-pylint
+
+
+Agora é se certificar que o VScodium tem a extensão pra rodar os códigos. No VScodium, instale a extensão python (automaticamente ela vem com python-debugger).
