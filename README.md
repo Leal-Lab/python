@@ -1,1 +1,1 @@
-Repositório pra armazenar os estudos do PC
+Repositório pra armazenar os estudos de python do PC.
