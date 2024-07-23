@@ -5,13 +5,13 @@ número é inválido.
 """
 import math
 
-NUMBER = float(input('Digite um número inteiro:'))
+NUMBER = int(input('Digite um número inteiro:'))
 
-RAIZ_QUADRADA = math.sqrt(NUMBER)
-
-if NUMBER < 0:
-    print("Número Negativo!")
-
-else:
+if NUMBER > 0:
+    RAIZ_QUADRADA = math.sqrt(NUMBER)
     print('O número é:', NUMBER)
     print("Sua raíz quadrada é:", RAIZ_QUADRADA)
+
+else:
+    print("Número Negativo!")
+    
