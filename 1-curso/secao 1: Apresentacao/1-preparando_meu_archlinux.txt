@@ -2,22 +2,26 @@
 
 Crie uma chave pública no terminal:
 
-    ssh-keygen -t ed25519 -C "email@algumacoisa.com"
+        ssh-keygen -t ed25519 -C "email@algumacoisa.com"
 
-copie o conteúdo e cole em ssh keys no github.
+copie o conteúdo e cole em ssh keys no github; então, clone o repo usando um terminal:
 
-Então, clone o repo usando um terminal:
-
-    git clone git@github.com:nome-do-repositorio.com
+        git clone git@github.com:nome-do-repositorio.com
 
 
 Faça alguma alteração só pra marcar
 
-    git commit -am "Added a simple title"
+        git commit -am "Added a simple title"
+
+Na primeira vez ele vai travar a alteração com o texto  "*** Please tell me who you are". Basta se identificar com os comandos seguindo suas informações:
+    
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+
 
 Agora é só subir a alteração pro seu repositório
     
-    git push
+        git push
 
                                 <github>
 
