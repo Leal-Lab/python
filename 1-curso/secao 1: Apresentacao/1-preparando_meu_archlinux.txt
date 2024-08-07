@@ -1,11 +1,34 @@
- 
-    O curso pede pra instalar a IDE pycharm, mas sinceramente eu prefiro o VScodium. VScodium é a versão livre do produto VS code, da Microsoft. Pra instalar diretamente do terminal, habilite o repositório aur (chaotic-aur é excelente!)
+                                <github>
 
-            VScodium
-                sudo pacman -S vscodium
+Crie uma chave pública no terminal:
 
-            bibliotecas python
-                sudo pacman -S python-pip python-pylint
+    ssh-keygen -t ed25519 -C "email@algumacoisa.com"
+
+copie o conteúdo e cole em ssh keys no github.
+
+Então, clone o repo usando um terminal:
+
+    git clone git@github.com:nome-do-repositorio.com
 
 
-Agora é se certificar que o VScodium tem a extensão pra rodar os códigos. No VScodium, instale a extensão python (automaticamente ela vem com python-debugger).
+Faça alguma alteração só pra marcar
+
+    git commit -am "Added a simple title"
+
+Agora é só subir a alteração pro seu repositório
+    
+    git push
+
+                                <github>
+
+O curso pede pra instalar a IDE pycharm, mas sinceramente eu prefiro o VScodium. VScodium é a versão livre do produto VS code, da Microsoft. Pra instalar diretamente do terminal, habilite o repositório aur (chaotic-aur é excelente!)
+
+    VScodium
+        sudo pacman -S vscodium
+
+    bibliotecas python
+        sudo pacman -S python-pip python-pylint
+
+
+
+Pra rodar 
