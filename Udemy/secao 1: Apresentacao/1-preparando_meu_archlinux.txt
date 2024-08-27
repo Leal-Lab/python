@@ -1,7 +1,7 @@
 <AUR>
         
         Archlinux depende de compilar pacotes, o que demanda muito tempo. Pensando nisso, a comunidade BR criou um repositório chamado Chaotic-aur,
-        com programas AUR pré- compilados pra facilitar a instalação. Vamos adicionar esse repo:
+        com programas AUR pré-compilados pra facilitar a instalação. Vamos adicionar esse repo:
                 
                 sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
                 sudo pacman-key --lsign-key 3056513887B78AEB
@@ -110,3 +110,24 @@
         Pra instalar diretamente do terminal, habilite o repositório aur (chaotic-aur é excelente!).
 
                 sudo pacman -S vscodium
+
+
+<CUSTOMIZAÇÃO NO CODIUM>
+
+        Plugins basicos:
+
+                portuguese (Brazil)
+
+                Material Icon theme
+
+                Dracula Theme Official
+
+
+
+        Configurações:
+
+                Font size: 16
+
+                Ícones no terminal:
+                        Enter terminal.integrated.fontFamily in the search box at the top of Settings tab and set the value below to MesloLGS NF
+
