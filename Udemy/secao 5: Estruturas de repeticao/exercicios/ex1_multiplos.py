@@ -3,8 +3,8 @@
 maiores que 0.
 """
 
-contador: int = 0
-indice: int = 1
+contador = 0
+indice = 1
 
 while contador < 5:
     if indice % 3 == 0:
