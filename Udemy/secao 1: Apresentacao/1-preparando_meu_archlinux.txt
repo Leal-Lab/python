@@ -23,7 +23,7 @@
         "Se meu sistema não quebrar, olê olê olá..."
         Timeshift é por si só uma mão na roda. Mas podemos potencializar sua mecânica de snapshots em busca do sistema perfeito.
                 
-                sudo pacman -S Timeshift grub-btrfs timeshift-autosnap && sudo grub-mkconfig
+                sudo pacman -S timeshift grub-btrfs timeshift-autosnap && sudo grub-mkconfig
 
         Dessa forma toda vez que for encontrada uma atualização, um snapshot é feito na pré-instalação e adicionado no grub.
         Caso a atualização dê alguma pane no sistema, basta voltar no snapshot como se nada tivesse acontecido.
