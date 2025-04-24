@@ -33,13 +33,13 @@
 
         Atualmente, o Archlinux usa o bash por padrão; mas ele é um tanto tedioso. Vamos instalar o zsh, que é mais adaptado a mudança de tema:
 
-                sudo pacman -S zsh ttf-meslo-nerd-font-powerlevel10k
+                sudo pacman -S zsh ttf-meslo-nerd-font-powerlevel10k git git-zsh-completion
         
         mude o interpretador padrão pra zsh:
 
                 chsh -s $(which zsh)
         
-        Agora instalamos o modificador do zsh, o programa Oh my zsh (caso não tenha instalado, instale primeiro o curl):
+        Agora instalamos o modificador do zsh, o programa Oh my zsh:
 
                 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
