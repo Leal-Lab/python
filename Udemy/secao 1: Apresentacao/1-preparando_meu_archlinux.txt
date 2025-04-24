@@ -52,17 +52,21 @@
                 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 
-        Pra finalizar, editamos o arquivo pra sinalizar os plugins e ativar o tema:
+        Pra finalizar, editamos o arquivo pra ativar o tema e sinalizar os plugins:
+
+ ZSH_THEME="powerlevel10k/powerlevel10k"
+
 
 sudo nano ~/.zshrc
 
-                plugins=( git
-                        zsh-syntax-highlighting
-                        fzf
-                        zsh-autosuggestions
-                        k)
+plugins=(
+git
+zsh-syntax-highlighting
+fzf
+zsh-autosuggestions
+k
+)
 
-                ZSH_THEME="powerlevel10k/powerlevel10k"
 
 <GITHUB>
 
