@@ -33,7 +33,7 @@
 
         Atualmente, o Archlinux usa o bash por padrão; mas ele é um tanto tedioso. Vamos instalar o zsh, que é mais adaptado a mudança de tema:
 
-                sudo pacman -S zsh
+                sudo pacman -S zsh ttf-meslo-nerd-font-powerlevel10k
         
         mude o interpretador padrão pra zsh:
 
@@ -52,8 +52,9 @@
                 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 
-        Pra finalizar, editamos o arquivo pra sinalizar os plugins e ativar o tema (pra funcionar 100%, instale as fontes MesloLGS)
-        sudo nano ~/.zshrc
+        Pra finalizar, editamos o arquivo pra sinalizar os plugins e ativar o tema:
+
+sudo nano ~/.zshrc
 
                 plugins=( git
                         zsh-syntax-highlighting
